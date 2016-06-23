@@ -1,0 +1,45 @@
+@font-face
+  font-family: gblack
+  src: url('../fonts/Gotham-Black.otf') format("opentype")
+
+@font-face
+  font-family: glight
+  src: url('../fonts/Gotham-Light.otf') format("opentype")
+
+@font-face
+  font-family: gmedium
+  src: url('../fonts/Gotham-Medium.otf') format("opentype")
+
+
+// color codes from http://designpieces.com/2012/12/twitter-colour-palette/
+$twitterdarkblue:#0084b4
+$twitterlogoblue:#00aced
+$twitterverifiedblue:#1dcaff
+$twitterbackgroundblue:#c0deed
+
+*
+  border: 0
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+  font-family: glight
+body
+  background: $twitterbackgroundblue
+.container
+  display: block
+  text-align: center
+  .signinbutton
+    margin: 20% 40%
+    display: block
+    width: 300px
+    color: #fff
+    font-family: gmedium
+    text-decoration: none
+    background: $twitterlogoblue
+    padding: 20px
+    border-radius: 2px
+    text-align: center
+    i
+      font-size: 40px
+      vertical-align: middle
+      padding-right: 20px
