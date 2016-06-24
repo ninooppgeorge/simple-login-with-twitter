@@ -48,3 +48,46 @@ body {
   vertical-align: middle;
   padding-right: 20px;
 }
+
+.dashboard {
+  padding: 10%;
+  line-height: 30px;
+}
+
+.dashboard h2 {
+  color: #0084b4;
+  font-size: 40px;
+  font-family: gblack;
+}
+
+.dashboard .ppic {
+  border-radius: 100px;
+  margin-top: 5%;
+  margin-right: 50%;
+  float: right;
+}
+
+.dashboard .details {
+  display: block;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.dashboard .details .que {
+  display: inline-block;
+  width: 27%;
+  font-family: gmedium;
+  text-align: right;
+}
+
+.dashboard .details .ans {
+  display: inline-block;
+  width: 49%;
+  text-decoration: none;
+  color: black;
+}
+
+.logout {
+  color: #0084b4;
+  text-decoration: none;
+}
